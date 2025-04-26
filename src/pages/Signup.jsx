@@ -24,7 +24,7 @@ function Signup() {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/signup', formData);
+      const response = await axios.post('https://esite-backend.onrender.com/api/auth/signup', formData);
       if (response.data.token) {
         // Store token in localStorage
         localStorage.setItem('authToken', response.data.token);
