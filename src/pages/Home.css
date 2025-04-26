@@ -1,0 +1,9 @@
+
+.fullscreen-section {
+    min-height: 100vh;         /* Fallback for older browsers */
+    min-width: 100wh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
